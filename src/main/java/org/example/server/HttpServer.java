@@ -319,7 +319,7 @@ public class HttpServer {
      * @param components La lista de componentes a convertir.
      * @return Una cadena JSON que representa la lista de componentes.
      */
-    private static String toJson(List<Component> components) {
+    public static String toJson(List<Component> components) {
         StringBuilder json = new StringBuilder("[");
         for (int i = 0; i < components.size(); i++) {
             Component component = components.get(i);
