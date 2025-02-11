@@ -1,4 +1,4 @@
-package org.example.clase;
+package org.example.clase.preTaller1;
 
 import java.io.*;
 import java.net.*;

@@ -1,11 +1,10 @@
-package org.example.clase;
+package org.example.clase.preTaller2;
 
 import java.net.*;
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.BiFunction;
-import java.util.function.Supplier;
 
 public class HttpServer {
     private static Map<String, BiFunction<String, String, String>> servicios= new HashMap();

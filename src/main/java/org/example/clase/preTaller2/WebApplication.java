@@ -1,8 +1,8 @@
-package org.example.clase;
+package org.example.clase.preTaller2;
 
 
-import static org.example.clase.HttpServer.staticfiles;
-import static org.example.clase.HttpServer.get;
+import static org.example.clase.preTaller2.HttpServer.staticfiles;
+import static org.example.clase.preTaller2.HttpServer.get;
 import java.io.IOException;
 import java.net.URISyntaxException;
 
