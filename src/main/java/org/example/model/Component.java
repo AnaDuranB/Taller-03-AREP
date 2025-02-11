@@ -1,6 +1,6 @@
-package org.example;
+package org.example.model;
 
-class Component {
+public class Component {
     private String name;
     private String type;
     private double price;

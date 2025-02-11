@@ -1,6 +1,6 @@
 package org.example;
 
-import org.junit.jupiter.api.AfterAll;
+import org.example.server.HttpServer;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.controller;
 
 import org.example.annotations.GetMapping;
 import org.example.annotations.RequestParam;

@@ -17,7 +17,7 @@ public class HttpServerIntegrationTest {
 
     @BeforeAll
     public static void setUp() throws IOException {
-        serverProcess = new ProcessBuilder("java", "-cp", "target/classes", "org.example.HttpServer")
+        serverProcess = new ProcessBuilder("java", "-cp", "target/classes", "org.example.server.HttpServer")
                 .start();
     }
 

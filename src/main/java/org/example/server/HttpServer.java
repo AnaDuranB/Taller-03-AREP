@@ -1,4 +1,6 @@
-package org.example;
+package org.example.server;
+
+import org.example.model.Component;
 
 import java.net.*;
 import java.io.*;
@@ -97,7 +99,7 @@ public class HttpServer {
                 handleRequest(clientSocket);
             }
         } catch (IOException e) {
-            System.err.println("Accept failed.");
+            System.err.println("Error al iniciar el servidor");
             System.exit(1);
         }
     }
@@ -282,7 +284,7 @@ public class HttpServer {
      * @param json La cadena JSON a parsear.
      * @return Un mapa con los datos parseados.
      */
-    private static Map<String, String> parseJson(String json) {
+    public static Map<String, String> parseJson(String json) {
         Map<String, String> map = new HashMap<>();
 
         if (json == null || json.isEmpty()) {

@@ -94,7 +94,7 @@ mvn clean compile
 4. Ejecuta el servidor:
 
 ```
-java -cp target/classes org.example.HttpServer
+java -cp target/classes org.example.server.HttpServer
 ```
 ![image](https://github.com/user-attachments/assets/02b8ce14-9c4b-4485-8a76-f2642c1916df)
 
